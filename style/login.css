@@ -1,0 +1,93 @@
+.container-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-box{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-text{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.sub-title{
+    font-size: 17px;
+    margin-top: 7px;
+    font-weight: 400;
+}
+
+.text-material{
+    width: 350px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 20px;
+    margin-top: 40px;
+    outline: none;
+}
+
+.text-material:focus{
+    border: 2px solid rgb(46, 119, 214);
+}
+
+.label-text{
+    font-size: 12px;
+    position: absolute;
+    margin-top: 180px;
+    background-color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 250px;
+    color: rgb(46, 119, 214);
+}
+
+.register-text{
+    font-size: 14px;
+    color: rgb(46, 119, 214);
+}
+
+.mini-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 80PX);
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    margin-top: 40px;
+}
+
+.himbauan{
+    width: calc(100% - 80PX);
+    margin-top: 65px;
+    font-size: 14px;
+    color: gray
+}
+
+.btn-biru{
+    border-radius: 5px;
+    border: 1px solid rgb(46, 119, 214);
+    background-color: rgb(46, 119, 214);
+    color: white;
+    padding: 10px;
+    font-weight: 600
+}
+
+.error-msg{
+    color: rgb(202, 26, 26);
+    font-size: 13px;
+    padding:0;
+    margin:0;
+}
